@@ -21,10 +21,11 @@
 # lines, full and toro, hence its name.
 #
 
-# Camera
+# Camera and Stk
 PRODUCT_PACKAGES := \
     Camera \
-    Gallery
+    Gallery \
+    Stk
 
 #if we do this after the full_base_telephony is included some of these don't get picked up..
 PRODUCT_COPY_FILES += \
